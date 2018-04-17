@@ -10,7 +10,7 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Outbounditu.com</title>
+	<title>Jasa Internet | Java Digital Nusantara</title>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -66,7 +66,7 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
 		
 		<header id="js-header" class="u-header u-header--sticky-top u-header--toggle-section u-header--change-appearance" data-header-fix-moment="500">
 			
-		      <div class="u-header__section u-header__section--light g-bg-indigo g-transition-0_3 g-py-10" data-header-fix-moment-exclude="g-bg-indigo g-py-10" data-header-fix-moment-classes="g-bg-black-opacity-0_7 u-shadow-v18 g-py-0">
+		      <div class="u-header__section u-header__section--light g-bg-cyan g-transition-0_3 g-py-10" data-header-fix-moment-exclude="g-bg-cyan g-py-10" data-header-fix-moment-classes="g-bg-black-opacity-0_7 u-shadow-v18 g-py-0">
 		        <nav class="js-mega-menu navbar navbar-expand-lg">
 		          <div class="container">
 		            <!-- Responsive Toggle Button -->
@@ -92,39 +92,18 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
 		                  <a href="<?php echo base_url()?>" class="nav-link g-color-white">Home</a>
 		                </li>
 		                 <li class="nav-item g-mx-2--md g-mx-5--xl g-mb-5 g-mb-0--lg ">
-		                  <a href="<?php echo base_url()?>outbound/berita" class="nav-link g-color-white">News</a>
+		                  <a href="<?php echo base_url()?>outbound/berita" class="nav-link g-color-white">Services</a>
 		                </li>
 		                
 		               
 		                <li class="nav-item g-mx-2--md g-mx-5--xl g-mb-5 g-mb-0--lg ">
-		                  <a href="<?php echo base_url()?>Front/about" class="nav-link g-color-white">Tentang Kami</a>
-		                </li>
-
-		                <li class="nav-item hs-has-sub-menu g-mx-2--md g-mx-5--xl g-mb-5 g-mb-0--lg">
-		                  <a href="#" class="nav-link g-color-white" id="nav-link-1" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu-1">Our Service</a>
-		                  <!-- Submenu -->
-		                  <ul class="hs-sub-menu list-unstyled g-mt-17--lg g-mt-7--lg--scrolling" id="nav-submenu-1" aria-labelledby="nav-link-1">
-		                    <li><a href="<?php echo base_url()?>Front/sdm">Training Pengembangan SDM</a>
-		                    </li>
-		                    <li><a href="<?php echo base_url()?>Front/training">Outbound Management Training</a>
-		                    </li>
-		                    
-		                  </ul>
-		                  <!-- End Submenu -->
-		                </li>
-		                <li class="nav-item hs-has-sub-menu g-mx-2--md g-mx-5--xl g-mb-5 g-mb-0--lg">
-		                  <a href="#" class="nav-link g-color-white" id="nav-link-1" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu-1">Artikel</a>
-		                  <!-- Submenu -->
-		                  <ul class="hs-sub-menu list-unstyled g-mt-17--lg g-mt-7--lg--scrolling" id="nav-submenu-1" aria-labelledby="nav-link-1">
-		                    <li><a href="<?php echo base_url() ?>outbound/lucu">Outbound itu Lucu</a>
-		                    </li>
-		                    <li><a href="<?php echo base_url() ?>outbound/cerita">Outbound itu Bercerita</a>
-		                    </li>
-		                  </ul>
-		                  <!-- End Submenu -->
+		                  <a href="<?php echo base_url()?>Front/about" class="nav-link g-color-white">Profile</a>
 		                </li>
 		                <li class="nav-item g-mx-2--md g-mx-5--xl g-mb-5 g-mb-0--lg ">
-		                  <a href="<?php echo base_url()?>Front/galery/display" class="nav-link g-color-white">Galeri</a>
+		                  <a href="<?php echo base_url()?>Front/about" class="nav-link g-color-white">Contact</a>
+		                </li>
+		                 <li class="nav-item g-mx-2--md g-mx-5--xl g-mb-5 g-mb-0--lg ">
+		                  <a href="<?php echo base_url()?>Front/about" class="nav-link g-color-white">Network</a>
 		                </li>
 		              </ul>
 		            </div>
@@ -141,16 +120,17 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
 		    	
 		    </section>
 		   
-		    <section class="g-pt-10">
-		    	<div class="slider">
-		    		<div><img src="<?php echo base_url();?>assets/img/slider/4.png" class="img-responsive"></div>
-		    		<div><img src="<?php echo base_url();?>assets/img/slider/buku.jpg" class="img-responsive" style="margin: 0 auto;"></div>
-				    <div><img src="<?php echo base_url();?>assets/img/slider/3.png" class="img-responsive" style="margin: 0 auto;"></div>
-				    <div><img src="<?php echo base_url();?>assets/img/slider/5.jpg" class="img-responsive"></div>
-				     <div><img src="<?php echo base_url();?>assets/img/slider/6.png" class="img-responsive"></div>
-				      <div><img src="<?php echo base_url();?>assets/img/slider/7.png" class="img-responsive"></div>
-				 </div>
-		    </section>
+		   <div class="row">
+				<section class="col-md-5 g-pt-10 container">
+					<div class="slider">
+						<div><img src="<?php echo base_url();?>assets/img/slider/dc.jpg" class="img-fluid" style="margin: 0 auto;"></div>
+						<div><img src="<?php echo base_url();?>assets/img/slider/software.jpg" class="img-fluid" style="margin: 0 auto;"></div>
+						<div><img src="<?php echo base_url();?>assets/img/slider/network.jpg" class="img-fluid" style="margin: 0 auto;"></div>
+						
+					    
+					 </div>
+				</section>
+			</div>
 		    <div class="container">
 		    	<?php $this->load->view($main_view) ?>
 		    </div>
@@ -169,11 +149,9 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
 				        <h2 class="h6 g-color-white text-uppercase g-font-weight-600 g-mb-20"><i class="fas fa-phone fa-2x"></i></h2>
 				        <ul class="list-unstyled mb-0">
 				          <li class="g-mb-8">
-				            <a class="g-color-white-opacity-0_8" href="#">0812 9969 035</a>
+				            <div class="g-color-white-opacity-0_8" >021-875 1818</div>
 				          </li>
-				          <li class="g-mb-8">
-				            <a class="g-color-white-opacity-0_8" href="#">0896 7730 3195</a>
-				          </li>
+				         
 				          
 				        </ul>
 				      </div>
@@ -181,10 +159,13 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
 
 				      <!-- Footer Content -->
 				      <div class="col-sm-6 col-lg g-mb-30 g-mb-0--lg">
-				        <h2 class="h6 g-color-white text-uppercase g-font-weight-600 g-mb-20"><i class="far fa-envelope fa-2x" style="color:#ff751a;"></i></h2>
+				        <h2 class="h6 g-color-white text-uppercase g-font-weight-600 g-mb-20"><i class="far fa-building fa-2x"></i></h2>
 				        <ul class="list-unstyled mb-0">
 				          <li class="g-mb-8">
-				            <a class="g-color-white-opacity-0_8" href="#">info@outbounditu.com</a>
+				            <div class="g-color-white-opacity-0_8">
+				            	NIRWANA BUILDING<br>
+								Jl Cikaret raya Komplek Puri Nirwana 1 Blok A1 No.1 Cibinong-Bogor 16916
+				            </div>
 				          </li>
 				          
 				        </ul>
@@ -193,10 +174,10 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
 
 				      <!-- Footer Content -->
 				      <div class="col-sm-6 col-lg">
-				        <h2 class="h6 g-color-white text-uppercase g-font-weight-600 g-mb-20"><i class="fab fa-facebook-square fa-2x" style="color:#1a53ff;"></i></h2>
+				        <h2 class="h6 g-color-white text-uppercase g-font-weight-600 g-mb-20"><i class="far fa-envelope fa-2x"></i></h2>
 				        <ul class="list-unstyled mb-0">
 				          <li class="g-mb-8">
-				            <a class="g-color-white-opacity-0_8" href="https://www.facebook.com/agoes.jp">@Agoes susilo jp</a>
+				            <div class="g-color-white-opacity-0_8" >info@nusantara.net.id </div>
 				          </li>
 				          
 				        </ul>
@@ -205,10 +186,10 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
 
 				      <!-- Footer Content -->
 				      <div class="col-sm-6 col-lg">
-				        <h2 class="h6 g-color-white text-uppercase g-font-weight-600 g-mb-20"><i class="fab fa-twitter fa-2x" style="color:aqua;"></i></h2>
+				        <h2 class="h6 g-color-white text-uppercase g-font-weight-600 g-mb-20"><i class="fab fa-facebook-square fa-2x" style="color:#fff;"></i></h2>
 				        <ul class="list-unstyled mb-0">
 				          <li class="g-mb-8">
-				            <a class="g-color-white-opacity-0_8" href="#">@jp_agoes</a>
+				            <a class="g-color-white-opacity-0_8" target="_blank" href="https://www.facebook.com/nusantara.net.id/">Java Digital Nusantara</a>
 				          </li>
 				          
 				        </ul>
@@ -216,17 +197,7 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
 				      <!-- End Footer Content -->
 
 
-				      <!-- Footer Content -->
-				      <div class="col-sm-6 col-lg">
-				        <h2 class="h6 g-color-white text-uppercase g-font-weight-600 g-mb-20"><i class="fab fa-instagram fa-2x" style="color:#e95950;"></i></h2>
-				        <ul class="list-unstyled mb-0">
-				          <li class="g-mb-8">
-				            <a class="g-color-white-opacity-0_8" href="https://www.instagram.com/keepinspirit25/">keepinspirit25</a>
-				          </li>
-				          
-				        </ul>
-				      </div>
-				      <!-- End Footer Content -->
+				     
 
 
 				    </div>
@@ -238,7 +209,7 @@ if ( function_exists( 'date_default_timezone_set' ) ) {
 				  <!-- Copyright -->
 				  <div class="container">
 				    <small class="g-font-size-default"><?php echo date('Y');?> All right reserved. 
-				      <a class="g-color-white" href="<?php echo base_url();?>">Outbounditu.com</a>
+				      <a class="g-color-white" href="<?php echo base_url();?>">Nusantara.net.id</a>
 				    </small>
 				  </div>
 				  <!-- End Copyright -->
